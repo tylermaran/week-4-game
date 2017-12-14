@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Crystals!</title>
+
+	<!-- <link rel="shortcut icon" type="image/x-icon" href="assets/images/crystal.ico" /> -->
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	
+	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
+		
+
+</head>
+<body>
+
+	<div class="header"> Crystal Collector!</div>
+
+	<div class="instructions"> 
+		<h2>Instructions:</h2>
+		You are given a random number at the start of the game. 
+
+		There are three crystals below, each with a random value. By clicking one of the crystals you add that value to your score. If your score is equal to the target number, you win. If you go over, you lose. 
+
+		Good luck!
+
+	</div>
+
+	<div class="target">
+		<p>Match the number!</p>
+		<div class="number-to-guess"></div>
+
+	</div>
+
+
+	<div class="score">Score:
+		<p>Wins: <span class="wins"></span></p>
+		<p>Losses: <span class="losses"></span></p>
+
+	</div>
+
+	<div class="crystal">
+		<button class="blue"></button>
+		<button class="yellow"></button>
+		<button class="green"></button>
+
+
+	</div>
+
+	<div class="guess">
+		<p>Current Number:</p>
+		<div class="current"></div>
+
+	</div>
+
+<script src="assets/javascript/game.js"></script>
+</body>
+</html>

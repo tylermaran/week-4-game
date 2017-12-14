@@ -1,0 +1,95 @@
+
+body {
+	position: relative;
+}
+
+.header {
+	position: relative;
+	width: 33%;
+	height: 50px;
+	left: 33%;
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+	background-color: blue;
+	margin:5px 5px 5px 5px;
+
+}
+
+.instructions {
+
+	background-color: orange;
+	margin:5px 5px 5px 5px;
+
+}
+
+.target {
+	width: 25%;
+	background-color: yellow;
+	margin:5px 5px 5px 5px;
+
+}
+
+.number-to-guess {
+
+	font-weight: bold;
+	font-size: 25px;
+
+}
+
+
+.score {
+	
+	background-color: pink;
+	margin:5px 5px 5px 5px;
+
+}
+
+
+.crystal {
+
+	background-color: grey;
+	margin:5px 5px 5px 5px;
+	width: 455px;
+
+}
+
+
+.guess {
+
+	background-color: red;
+	margin:5px 5px 5px 5px;
+	width: 450px;
+
+}
+
+
+.blue {
+	background-image: url(../images/blue.jpg);   
+	background-repeat: no-repeat; 
+	border: none;
+	height: 176px;
+	width:139px;
+	margin:5px 5px 5px 5px;
+}
+
+.yellow{
+	background-image: url(../images/yellow.jpg);   
+	background-repeat: no-repeat; 
+	border: none;
+	height: 176px;
+	width:139px;
+	margin:5px 5px 5px 5px;
+}
+
+.green {
+	background-image: url(../images/green.jpg);   
+	background-repeat: no-repeat; 
+	border: none;
+	height: 176px;
+	width:139px;
+	margin:5px 5px 5px 5px;
+}
+
+
+
